@@ -1,0 +1,69 @@
+#certifications {
+    background: #F5F5F5;
+}
+
+#certifications .container {
+    text-align: center;
+}
+
+.certification-container {
+    display: inline-block;
+    perspective: 900px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.certification {
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+.certification-front, .certification-back {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+.certification-container:hover .certification {
+    transform: rotateY(180deg);
+}
+
+.certification-back {
+    transform: rotateY(180deg);
+}
+
+.certification-back-name {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.certification > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px !important;
+    height: 100%;
+}
+
+.certification img {
+    align-self: center;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .certification {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .certification {
+        padding: 20px;
+    }
+}

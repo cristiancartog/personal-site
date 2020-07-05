@@ -1,0 +1,25 @@
+.spaced {
+    margin-right: 5px;
+}
+
+.assignment {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.paper-container {
+    position: relative;
+    height: 400px;
+    min-height: 200px;
+}
+
+.skills {
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.stepper-navigator {
+    border-radius: 8px;
+}

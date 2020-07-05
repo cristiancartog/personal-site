@@ -1,0 +1,38 @@
+.home {
+    width: 100% !important;
+    height: 100% !important;
+    margin: auto;
+    background: url('/img/bg.jpg') no-repeat 50% 50%;
+    top: 0;
+    display: table;
+    background-size: cover;
+}
+
+.home .home-in {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.home .home-content {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.home .home-content h1 {
+    margin: 0px;
+}
+
+.home .home-content hr {
+    max-width: 250px;
+    border-top: 1px solid white;
+}
+
+.home .home-content h2 {
+    color: #a5ee06;
+}
+

@@ -1,0 +1,26 @@
+
+#personal-projects {
+    background: #F5F5F5;
+}
+
+#personal-projects .container {
+    padding-bottom: 0px !important; /* fix problem scroll spy with work & education */
+    max-width: none;
+}
+
+#personal-projects .vertical-timeline-element-content {
+    border-top: 3px solid #F38721;
+}
+
+#personal-projects .vertical-timeline-element-content a {
+    color: black;
+    text-decoration: none;
+}
+
+#personal-projects .vertical-timeline-element-content p {
+    padding-bottom: 15px;
+}
+
+.spaced {
+    margin-right: 5px;
+}

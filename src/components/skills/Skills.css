@@ -1,0 +1,50 @@
+#skills {
+    background: white;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill > div {
+    width: 23%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skill svg {
+    width: 60px;
+    height: 60px;
+}
+
+.skill svg path,
+.skill svg g {
+    fill: #fff !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .skill {
+        justify-content: space-around;
+    }
+
+    .skill > div {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .skill {
+        justify-content: center;
+    }
+
+    .skill > div {
+        width: 90%;
+    }
+
+    .skill svg {
+        width: 60px;
+        height: 60px;
+    }
+}

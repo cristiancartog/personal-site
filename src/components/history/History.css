@@ -1,0 +1,34 @@
+#history {
+    background: #F5F5F5;
+}
+
+#history .container {
+    padding-bottom: 0px !important; /* fix problem scroll spy with work & education */
+    max-width: none;
+}
+
+.position .vertical-timeline-element-content {
+    border-top: 3px solid #2196F3;
+}
+
+.education .vertical-timeline-element-content {
+    border-top: 3px solid #830038;
+}
+
+.spaced {
+    margin-right: 2px;
+    margin-top: 2px
+}
+
+.resume-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.resume-container a {
+    padding: 14px 23px;
+    font-size: 16px;
+    min-width: 300px;
+}
+
+

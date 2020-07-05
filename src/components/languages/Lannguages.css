@@ -1,0 +1,45 @@
+#languages {
+    background: #F5F5F5;
+}
+
+#languages .container {
+    text-align: center;
+}
+
+.languages {
+    display: inline-flex;
+    flex-flow: column nowrap;
+}
+
+.languages:after {
+    clear: both;
+}
+
+.language {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.language-info {
+    text-align: left;
+    padding-right: 25px;
+}
+
+.language-name {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.language-description {
+    color: #8a8a8b;
+    width: 100%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .language {
+        flex-direction: column;
+    }
+}
